@@ -1,11 +1,9 @@
 const initialState = {
   currentValue: Boolean,
-  error: "",
   name: ""
 }
 
 const reducer = (state = initialState, action) => {
-  console.log(action.payload)
   switch(action.type) {
     case "REGISTRATION_SUCCESS_STATUS":
       return {

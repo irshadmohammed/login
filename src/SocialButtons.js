@@ -1,10 +1,8 @@
 import React from 'react';
 import './SocialButtons.css';
-import { Button } from 'antd';
 import { FacebookFilled, AppleFilled } from '@ant-design/icons';
 
 function SocialButtons(props) {
-  console.log(props, 'propsnew')
   return (
     <div className='social'>
       <p>- OR -</p>
