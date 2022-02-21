@@ -1,0 +1,38 @@
+.home {
+  margin: 100px;
+  background-color: #f2f2f2;
+  box-shadow: none;
+  /* border: 1px solid #d3dbe4; */
+  /* margin-top: 50px; */
+  padding: 0px 0px 0px 0px;
+  border-radius: 15px;
+  /* height: 560px; */
+}
+
+.home__grid {
+  display: grid;
+  height: 100px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 100px;
+}
+
+.home__col1 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+
+/* New Code */
+.home__wrapper {
+  /* border: 1px solid red; */
+  -moz-box-shadow: 0px 0px 2px 1px #ebebeb;
+  -webkit-box-shadow: 0px 0px 2px 1px #ebebeb;
+  box-shadow: 0px 0px 2px 1px #ebebeb;
+  font-size: 1.143em;
+  margin: 50px auto;
+  /* padding-bottom: 50px;
+  padding-top: 50px; */
+  width: 90%;
+}

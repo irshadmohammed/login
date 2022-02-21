@@ -1,0 +1,15 @@
+.toggler {
+  display: flex;
+  margin-bottom: 25px;
+  justify-content: space-between;
+}
+
+.toggler > h3 {
+  color: #ff6052;
+}
+
+.toggler__compass {
+  margin-left: 15px;
+  align-items: center;
+  text-align: center;
+}

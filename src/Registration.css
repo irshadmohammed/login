@@ -1,0 +1,74 @@
+.registration {
+  padding: 50px;
+  background-color: white;
+  height: 100%;
+}
+
+.registration > h1 {
+  font-size: 46px;
+  word-spacing: 4px;
+  font-weight: bold;
+}
+
+.registration > p {
+  margin-top: 30px;
+  color: #7d779e;
+  font-size: 28px;
+  padding-bottom: 30px;
+}
+
+.reg__divider {
+  width: 50%;
+  height: 10px;
+}
+
+.registration__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.registration__input {
+  border: none;
+  border-radius: 25px;
+  height: 90px;
+  width: 90%;
+  font-size: 30px;
+  background-color: #e7ebfd;
+  padding: 25px;
+  justify-content: center;
+  letter-spacing: 2px;
+}
+
+.registration__input:hover :active {
+  outline: none;
+}
+
+.registration__button {
+  width: 90%;
+  height: 85px;
+  background-color: #ff6052;
+  justify-content: center;
+  color: white;
+  font-size: 32px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 35px;
+}
+
+.registration__passwordfield > .ant-input {
+  width: 90%;
+  height: 90px;
+  letter-spacing: 2px;
+  font-size: 30px;
+  background-color: #e7ebfd;
+  padding: 25px;
+  border-radius: 25px;
+  border: none;
+  justify-content: center;
+}
+
+.registration__passwordfield > .ant-input-suffix {
+  margin-left: 20px;
+  font-size: 30px;
+}

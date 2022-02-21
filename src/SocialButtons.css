@@ -1,0 +1,41 @@
+.social {
+  text-align: center;
+  padding: 45px;
+}
+
+.social > p {
+  margin-bottom: 50px;
+}
+
+.social__button {
+  font-size: 28px;
+  background-color: pink;
+  border-radius: 15px;
+  width: fit-content;
+  height: 65px;
+  border: none;
+  cursor: pointer;
+  padding: 0 25px;
+}
+
+.social__iconWrapper {
+  padding: 20px;
+  cursor: pointer;
+  background-color: pink;
+  border-radius: 15px;
+}
+
+.social__iconAlign {
+  display: flex;
+  width: 60%;
+  margin: auto;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+@media(max-width: 2416px) and (min-width: 1660px){
+  .social__iconAlign {
+    width: 90%;
+    height: fit-content;
+  }
+}
